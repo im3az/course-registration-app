@@ -11,8 +11,8 @@ const Cards = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div className="w-2/3">
-      <h1 className="text-4xl ">Courses:{courses.length}</h1>
+    <div className="w-2/3 grid grid-cols-3">
+      {/* <h1 className="text-4xl ">Courses:{courses.length}</h1> */}
       {courses.map((course) => (
         <Card key={course.id} course={course}></Card>
       ))}
