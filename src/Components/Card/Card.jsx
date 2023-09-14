@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
-const Card = ({ card }) => {
-  const { title } = card;
+const Card = ({ course }) => {
+  const { title } = course;
 
   return (
     <div>
@@ -11,7 +11,7 @@ const Card = ({ card }) => {
 };
 
 Card.propTypes = {
-  card: PropTypes.object,
+  course: PropTypes.object,
 };
 
 export default Card;

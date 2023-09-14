@@ -1,6 +1,6 @@
 [
     {
-        "id": "0",
+        "id": 1,
         "title": "Introduction to C Programming",
         "image": "https://i.ibb.co/DDrVZYL/1.png",
         "credit_hour": 3,
@@ -8,7 +8,7 @@
         "details": "This comprehensive course will teach you the fundamentals of C programming, including syntax, data types, control structures, and best practices. You'll gain hands-on experience through coding exercises and projects."
     },
     {
-        "id": "1",
+        "id": 2,
         "title": "Introduction to Algorithms",
         "image": "https://i.ibb.co/RDw3XLC/2.png",
         "credit_hour": 4,
@@ -16,7 +16,7 @@
         "details": "Dive into the fascinating world of algorithms and algorithm design techniques. This course will cover a wide range of algorithms, from sorting and searching to dynamic programming, with practical examples and real-world applications."
     },
     {
-        "id": "2",
+        "id": 3,
         "title": "Introduction to C++ for DSA",
         "image": "https://i.ibb.co/BCSSYjD/3.png",
         "credit_hour": 3,
@@ -24,7 +24,7 @@
         "details": "Master C++ programming for competitive programming and data structures. Learn advanced C++ concepts, data structure implementations, and algorithmic problem-solving skills to excel in coding competitions and technical interviews."
     },
     {
-        "id": "3",
+        "id": 4,
         "title": "Basic Data Structures",
         "image": "https://i.ibb.co/y0GwL81/4.png",
         "credit_hour": 4,
@@ -32,7 +32,7 @@
         "details": "Explore the world of basic data structures such as arrays, linked lists, stacks, and queues. Understand their principles, implementation, and practical usage in solving real-world problems."
     },
     {
-        "id": "4",
+        "id": 5,
         "title": "Introduction to OOP Python",
         "image": "https://i.ibb.co/M5DLRrj/5.png",
         "credit_hour": 3,
@@ -40,7 +40,7 @@
         "details": "Get started with object-oriented programming (OOP) in Python. Learn how to create classes, objects, and methods, and apply OOP concepts to build scalable and maintainable Python applications."
     },
     {
-        "id": "5",
+        "id": 6,
         "title": "Software Engineering",
         "image": "https://i.ibb.co/XsxMcRP/6.png",
         "credit_hour": 4,
@@ -48,7 +48,7 @@
         "details": "Gain expertise in software development methodologies, software design, testing, and project management. Learn how to work effectively in software development teams and deliver high-quality software products."
     },
     {
-        "id": "6",
+        "id": 7,
         "title": "AWS, Cloud Computing",
         "image": "https://i.ibb.co/FzFQ1Lc/7.png",
         "credit_hour": 3,
@@ -56,7 +56,7 @@
         "details": "Explore Amazon Web Services (AWS) and the principles of cloud computing. Build, deploy, and manage scalable and reliable cloud-based applications and services using AWS tools and services."
     },
     {
-        "id": "7",
+        "id": 8,
         "title": "Database (MySQL)",
         "image": "https://i.ibb.co/Z8CP0gX/8.png",
         "credit_hour": 3,
@@ -64,7 +64,7 @@
         "details": "Master the MySQL database management system for data storage and retrieval. Learn SQL, database design, and optimization techniques to manage and query data efficiently."
     },
     {
-        "id": "8",
+        "id": 9,
         "title": "Problem-Solving Part",
         "image": "https://i.ibb.co/ZgdXB81/9.png",
         "credit_hour": 2,
