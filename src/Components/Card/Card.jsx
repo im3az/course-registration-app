@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { BsCurrencyDollar, BsBook } from "react-icons/bs";
 
-const Card = ({ course }) => {
+const Card = ({ course, handleAddToCart }) => {
   const { title, image, details, price, credit_hour } = course;
 
   return (
@@ -23,11 +23,18 @@ const Card = ({ course }) => {
           </div>
           <div className="flex items-center gap-2">
             <BsBook />
-            <h1 className="font-medium text-[#777676]">Credit: {credit_hour}hr</h1>
+            <h1 className="font-medium text-[#777676]">
+              Credit: {credit_hour}hr
+            </h1>
           </div>
         </div>
         <div className="mb-5 items-center text-center">
-          <button className="btn btn-primary mt-3 w-72">Select</button>
+          <button
+            onClick={handleAddToCart}
+            className="btn btn-primary mt-3 w-72"
+          >
+            Select
+          </button>
         </div>
       </div>
     </div>
@@ -36,6 +43,7 @@ const Card = ({ course }) => {
 
 Card.propTypes = {
   course: PropTypes.object,
+  handleAddToCart: PropTypes.func,
 };
 
 export default Card;
