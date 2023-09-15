@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 // import CartItem from "../Cart Items/CartItem";
 
 const Cart = ({ cart, remaining, totalHour }) => {
-  console.log(remaining, totalHour);
   return (
     <div className="md:w-96 px-6 pt-6 lg:ml-10 rounded-xl h-[488px] bg-base-100 shadow-xl">
       <div>

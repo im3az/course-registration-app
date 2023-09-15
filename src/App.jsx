@@ -19,9 +19,14 @@ function App() {
         count = count + item.credit_hour;
       });
       const totalRemaining = 20 - count;
+      console.log(count);
+      if (count > 20) {
+        return alert("Can't add more");
+      } else {
+        setCart([...cart, card]);
+      }
       setTotalHour(count);
       setRemaining(totalRemaining);
-      setCart([...cart, card]);
     }
   };
 
