@@ -9,9 +9,15 @@ function App() {
 
   const handleAddToCart = (card) => {
     const isExist = cart.find((item) => item.id == card.id);
+
+    let count = card.credit_hour;
     if (isExist) {
       return alert("Already added");
     } else {
+      cart.forEach((item) => {
+        count = count + item.credit_hour;
+      });
+      console.log(count);
       setCart([...cart, card]);
     }
   };
