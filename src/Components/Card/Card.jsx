@@ -6,7 +6,7 @@ const Card = ({ course, handleAddToCart }) => {
 
   return (
     <div className="mb-6 ">
-      <div className="card md:w-96 lg:w-[370px] h bg-base-100 shadow-xl">
+      <div className="card md:w-96 lg:w-[370px] bg-base-100 shadow-xl">
         <figure className="pt-5">
           <img src={image} alt="Course" className="w-72 h-36 rounded-xl" />
         </figure>
