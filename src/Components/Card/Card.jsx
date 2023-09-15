@@ -31,9 +31,9 @@ const Card = ({ course, handleAddToCart }) => {
         <div className="mb-5 items-center text-center">
           <button
             onClick={() => handleAddToCart(course)}
-            className="btn btn-primary mt-3 w-72"
+            className="btn btn-primary normal-case mt-3 w-72"
           >
-            Select
+            <h2 className="text-base text-white">Select</h2>
           </button>
         </div>
       </div>
