@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Introduction to C++ for DSA",
         "image": "https://i.ibb.co/BCSSYjD/3.png",
-        "credit_hour": 3,
+        "credit_hour": 10,
         "price": 199,
         "details": "Master C++ programming for competitive programming and data structures. Learn advanced C++ concepts, data structure implementations, and algorithmic problem-solving skills to excel in coding competitions and technical interviews."
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Basic Data Structures",
         "image": "https://i.ibb.co/y0GwL81/4.png",
-        "credit_hour": 4,
+        "credit_hour": 5,
         "price": 249,
         "details": "Explore the world of basic data structures such as arrays, linked lists, stacks, and queues. Understand their principles, implementation, and practical usage in solving real-world problems."
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Introduction to OOP Python",
         "image": "https://i.ibb.co/M5DLRrj/5.png",
-        "credit_hour": 3,
+        "credit_hour": 7,
         "price": 199,
         "details": "Get started with object-oriented programming (OOP) in Python. Learn how to create classes, objects, and methods, and apply OOP concepts to build scalable and maintainable Python applications."
     },

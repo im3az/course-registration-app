@@ -8,15 +8,15 @@ function App() {
   const [cart, setCart] = useState([]);
 
   const handleAddToCart = (card) => {
-    console.log("adding soon");
+    setCart([...cart, card]);
   };
 
   return (
     <div className="bg-[#F3F3F3]">
       <Navbar></Navbar>
-      <div className="flex justify-around w-11/12 mx-auto">
+      <div className="md:flex justify-center md:justify-around w-11/12 mx-auto">
         <Cards handleAddToCart={handleAddToCart}></Cards>
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
