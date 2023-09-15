@@ -6,7 +6,8 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   const [cart, setCart] = useState([]);
-
+  const [remaining, setRemaining] = useState(0);
+  const [totalCost, setTotalCost] = useState(0);
   const handleAddToCart = (card) => {
     const isExist = cart.find((item) => item.id == card.id);
 
@@ -17,7 +18,9 @@ function App() {
       cart.forEach((item) => {
         count = count + item.credit_hour;
       });
-      console.log(count);
+      const totalRemaining = 20 - count;
+      setTotalCost(count);
+      setRemaining(totalRemaining);
       setCart([...cart, card]);
     }
   };
@@ -27,7 +30,7 @@ function App() {
       <Navbar></Navbar>
       <div className="md:flex justify-center md:justify-around w-11/12 mx-auto">
         <Cards handleAddToCart={handleAddToCart}></Cards>
-        <Cart cart={cart}></Cart>
+        <Cart remaining={remaining} totalCost={totalCost} cart={cart}></Cart>
       </div>
     </div>
   );
