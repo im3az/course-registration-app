@@ -8,7 +8,12 @@ function App() {
   const [cart, setCart] = useState([]);
 
   const handleAddToCart = (card) => {
-    setCart([...cart, card]);
+    const isExist = cart.find((item) => item.id == card.id);
+    if (isExist) {
+      return alert("Already added");
+    } else {
+      setCart([...cart, card]);
+    }
   };
 
   return (
